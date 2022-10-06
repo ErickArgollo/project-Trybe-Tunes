@@ -61,7 +61,6 @@ export default class Search extends Component {
       cloneSearchInput,
       album,
       showHeader } = this.state;
-    console.log(album);
 
     return (
       <div data-testid="page-search" className="search-container">

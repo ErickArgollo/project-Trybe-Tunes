@@ -46,8 +46,7 @@ export default class MusicCard extends Component {
 
   render() {
     const { song } = this.props;
-    const { isLoading, isFavorite, oi } = this.state;
-    console.log(oi);
+    const { isLoading, isFavorite } = this.state;
     return (
       <div className="song">
         <ul type="none" className="ul-songs">

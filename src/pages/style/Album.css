@@ -1,0 +1,84 @@
+.page-album {
+    display: flex;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.page-album-container {
+    width: 80%;
+}
+
+.album-infos-container{
+   height: 100vh;
+}
+
+.burguer-album{
+    display: none;
+}
+
+.title-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 30%;
+    background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, blue, rgb(0, 255, 179));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.artist-name{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.album-name{
+    margin-top: 10px;
+    color: white;
+}
+
+.album-img {
+    width: 250px;
+    border-radius: 12px;
+}
+
+.song-list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #e5e7eb;;
+    height: 70%;
+}
+
+.song-list {
+    height: 80%;
+    width: 80%;
+    overflow-y: auto;
+}
+
+@media screen and ( max-width : 768px ) { 
+    .page-album-container {
+        width: 100%;
+    }
+    .album-img {
+        
+        width: 170px;
+        border-radius: 12px;
+    }
+    .burguer-album{
+        color: black;
+        margin-top: 10px;
+        font-size: 50px;
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        text-align: end;
+    }
+}

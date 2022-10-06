@@ -1,0 +1,62 @@
+.song {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-songs{
+    padding:20px;
+    width: 100%;
+}
+
+.song-name{
+    width: 25%;
+}
+
+.audio-container {
+    width: 50%;
+}
+
+.audio {
+    width: 100%;
+    
+}
+
+.checkbox-container {
+    width: 25%;
+    text-align: center;
+}
+
+.favorite{
+    color: red;
+
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.loading {
+    display: block;
+    margin: auto;
+    animation: is-rotating 1s infinite;
+    text-align: center;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}

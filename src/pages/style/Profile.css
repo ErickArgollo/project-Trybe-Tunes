@@ -1,0 +1,114 @@
+.page-profile {
+    display: flex;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.page-profile-container{
+    width: 80%;
+}
+
+.burguer-search {
+    display: none;
+}
+
+.picture-form-container > .profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    overflow-wrap: break-word;
+    width: 30%;
+
+}
+
+
+.profile-content h3 {
+    padding-bottom: 5px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3D495C;
+}
+
+.profile-content p {
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-style: italic;
+    color: #3D495C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-content  .edit-profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 40px;
+    background: #003BE5;
+    border: none;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profile-content  .edit-profile-link:hover{
+    border: 1px solid black;
+    transform: translateY(-2px);
+}
+
+
+@media screen and ( max-width : 375px ) { 
+    .profile-content h3 {
+        text-align: center;
+       
+    }
+    .profile-content p {
+        text-align: center;
+    }
+ 
+    .profile-edit-form-container{
+        
+        padding-top: -50px;
+    }
+    .burguer-search{
+        display: block;
+    }
+    .picture-form-container{
+       
+        margin-bottom: 60px;
+        height: 100%;
+    }
+    
+    .profile-content  .edit-profile-link{
+        align-self: center;    
+    }
+    
+}
+
+@media screen and ( max-width : 768px ) { 
+    .burguer-search{
+        display: block;
+    }
+
+    .page-profile-container{
+        width: 100%;
+    }
+    .profile-content h3 {
+        text-align: center;
+       
+    }
+    .profile-content p {
+        text-align: center;
+    }
+    .profile-content  .edit-profile-link{
+        align-self: center;    
+    }
+}

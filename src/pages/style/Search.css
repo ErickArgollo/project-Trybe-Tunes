@@ -1,0 +1,179 @@
+.search-container {
+    width: 100%;
+    display: flex;
+    background-color: #EFF3F9;
+    overflow-y: hidden;
+}
+
+.form-song-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.burguer-search{
+    display: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    align-items: center;
+    gap: 10px;
+    background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, blue, rgba(0, 132, 255, 0.829));
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.search-input {
+    height: 30px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 23px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.search-input::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.button-search {
+    height: 40px;
+    width: 114px;
+    background: #00D5E2;
+    border-radius: 23px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.album-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 70%;
+    width: 100%;
+}
+
+.result-search-album{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: #003BE5;
+}
+
+.albuns-container {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    width: 60%;
+    height: 50%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(122, 118, 118, 0.199);
+    box-shadow: 0.5px 1px 0.5px 0.5px black;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 20px;
+    align-items: center;
+    width: 35%;
+    border: 1px solid black;
+    background-color: rgb(153, 151, 151);
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.nav-album-search{
+    text-decoration: none;
+    color: black;
+}
+.nav-album-search:hover{
+    text-decoration: none;
+    color: white;
+}
+::-webkit-scrollbar{
+    background-color: rgba(153, 150, 150, 0.781);
+    border-radius: 10px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 255, 0.74);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and ( max-width : 768px ) {
+    .form-song-container{
+        width: 100%;
+        position: relative;
+    }
+
+    .burguer-search {
+        color: black;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 50px;
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    .content {
+        margin: auto;
+        width: 100%;
+        background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, rgb(33, 33, 158), rgba(6, 9, 12, 0.829));
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        
+    }
+    .album-text-container{
+        position: absolute;
+        bottom: 0;
+        
+    }
+
+    .button-search{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .album-container{
+        width: 70%;
+        padding-bottom: 10px;
+        margin-bottom: -30px;
+        font-weight: 700;
+    }
+    
+    .search-input{
+        background: rgba(255, 255, 255, 0.466);
+        font-weight: 900;
+        width: 350px;
+    }
+    .result-search-album{
+        line-height: 30px;
+    }
+    
+}

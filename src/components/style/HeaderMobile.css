@@ -1,0 +1,11 @@
+.header-mobile {
+    width: 100%;
+    background-color: rgb(252, 247, 247);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}

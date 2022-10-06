@@ -1,7 +1,7 @@
 body { 
     height: 100vh;
     width: 100%;
-    background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, blue, aqua);
+    background-image: linear-gradient(to right, blue, aqua);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

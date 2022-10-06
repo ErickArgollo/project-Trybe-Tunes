@@ -23,7 +23,7 @@
     height: 30%;
     align-items: center;
     gap: 10px;
-    background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, blue, rgba(0, 132, 255, 0.829));
+    background-image: linear-gradient(to right, blue, rgba(0, 132, 255, 0.829));
     background-size: cover;
     background-attachment: fixed;
 }

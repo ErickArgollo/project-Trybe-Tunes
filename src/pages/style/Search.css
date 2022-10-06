@@ -142,7 +142,7 @@
     .content {
         margin: auto;
         width: 100%;
-        background-image: url(/home/erick/Documentos/Trybe\ Projetos/sd-025-a-project-trybetunes/src/images/BGAZUL.png), linear-gradient(to right, rgb(33, 33, 158), rgba(6, 9, 12, 0.829));
+        background-image: linear-gradient(to right, rgb(33, 33, 158), rgba(6, 9, 12, 0.829));
         position: absolute;
         z-index: 0;
         top: 0;

@@ -12,7 +12,7 @@
 ## Objetivos
   * Desenvolver uma aplicação utilizando react.
   * A partir da Api do itunes, simular um site de busca de albuns/músicas.
-  * Opção de salvar como favoritos cada música.
+  * Opção de salvar músicas favoritas.
   * Página de perfil do usuário com possibilidade de editar o perfil.
   * Bônus desenvolvido por mim: estilização seguindo o protótipo do FIGMA, site responsivo, foto de perfil na sideBar/burguerMenu
 

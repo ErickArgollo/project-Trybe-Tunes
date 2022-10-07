@@ -18,7 +18,7 @@ export default class Login extends Component {
 
   validateInputText = () => {
     const { textLogin } = this.state;
-    const MIN_LENGTH = 3;
+    const MIN_LENGTH = 1;
     if (textLogin.length >= MIN_LENGTH) {
       this.setState({ MoreThreeInputLength: true });
     } else {

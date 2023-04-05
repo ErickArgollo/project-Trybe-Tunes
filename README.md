@@ -1,7 +1,7 @@
 # Seja muito bem-vindo(a) ao meu projeto Trybe-Tunes! :rocket:
 ![bem-vindo(a)](https://github.com/ErickArgollo/project-Trybe-Tunes/blob/main/6tx.gif)
 
-#### <p>Esse projeto tem como objetivo desenvolver uma aplicação utilizando React, simulando um aplicativo de reprodução de músicas. Nele é possível selecionar a sua banda/álbum favorito, ouvir um preview das músicas, salvar suas músicas favoritas, além de criar um perfil personalizado com foto, nome, email e descrição. </p>
+#### <p>O objetivo deste projeto é criar um aplicativo de reprodução de música usando React. Com esta aplicação, é possível selecionar sua banda ou álbum favorito, ouvir previews das músicas, salvar suas músicas favoritas e ainda criar um perfil personalizado com uma foto, nome, email e descrição. Tudo isso utilizando uma interface amigável e intuitiva. O projeto foi uma ótima oportunidade para aprender mais sobre desenvolvimento web com React e aprimorar minhas habilidades em programação. </p>
 
 ## Link para acessar o projeto
 ### <b> <a href="https://trybetunes-zeta.vercel.app/">Trybe Tunes</a> </b> <br>
